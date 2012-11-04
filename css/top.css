@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+#treatmentInform {
+	float: left;
+	padding-right: 20px;
+	width: 300px;
+}
+
+#treatmentInform dt,
+#treatmentInform dd {
+	padding-left: 10px;	
+}
+
+#treatmentInform dt {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#treatmentInform dd + dt {
+	padding-top: 20px;
+}
+
+#treatmentInform dl + dl {
+	font-size: 0.75em;	
+}
+
+#treatmentInform dl + dl dd {
+	margin-left: 10px;
+}
+
+#treatmentTop {
+	font-size: 0.875em;
+	border-bottom: 5px solid #eaeaea;
+	padding-bottom: 15px;
+}
+
+#greeting {
+	float: left;
+	overflow: hidden;
+}
+
+p#greetingText {
+	padding-top: 10px;
+	padding-left: 10px;
+	width: 210px;
+	font-size: 0.75em;
+	line-height: 1.9;
+	letter-spacing: -0.09em;
+	float: left;
+}
+
+p#directorImage {
+	padding-top: 10px;
+	float: right;
+}
+
+#features {
+	clear: both;
+	padding-top: 40px;
+	font-size: 0.875em;
+	overflow: hidden;
+}
+
+#featuresText p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 450px;
+}
+
+#featuresText {
+	padding-left: 10px;
+	float: left;
+}
+
+#featuresImage {
+	float: right;
+	padding-top: 10px;
+}
+
+#featuresImage img {
+	border: 5px solid #eaeaea;	
+}
+
+#schedule {
+	padding-top: 40px;	
+}
+
+#schedule p {
+	padding-top: 20px;
+	padding-left: 10px;
+}

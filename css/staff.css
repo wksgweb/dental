@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main {
+	font-size: 0.875em;
+	line-height: 1.6;
+	overflow: hidden;
+}
+
+#main h1 {
+	padding-bottom: 20px;	
+}
+
+#main h2 {
+	clear: both;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+
+#directorText h2 {
+	padding-top: 0;
+	padding-bottom: 15px;
+	padding-left: 0;	
+} 
+
+#main p {
+	padding-bottom: 20px;	
+}
+
+#main table,
+#main th,
+#main td {
+	border: 1px solid #000000;	
+}
+
+#main table {
+	clear: both;
+	margin-left: 10px;
+}
+
+#main caption {
+	padding-bottom: 10px;	
+}
+
+#main th,
+#main td {
+	padding-left: 10px;
+	padding-right: 10px;	
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#director,
+#hygienist {
+	border-bottom: 4px dotted #42a642;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+#receptionist {
+	overflow: hidden;	
+}
+
+#directorImage {
+	padding-left: 10px;	
+}
+
+#hygienistImage,
+#receptionistImage {
+	padding-left: 20px;
+	float: right;
+}
+
+#directorImage img,
+#hygienistImage img,
+#receptionistImage img {
+	border: 1px solid #dddddd;
+	padding: 5px;	
+}
+
+#directorText {
+	width: 510px;
+	float: right;
+}
+
+#hygienistText,
+#receptionistText {
+	float: left;
+	width: 530px;
+}
+
+#hygienistText p,
+#receptionistText p {
+	padding-left: 10px;
+}
+
+#hygienistText p + p {
+	padding-bottom: 0;	
+}
